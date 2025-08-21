@@ -8,6 +8,8 @@ A minimal URL shortener service with TTL and analytics, packaged to run in Docke
 - GET /api/resolve/<short_id>: resolve a short ID to the original URL (JSON)
 - GET /stats/<short_id>: return hit count, creation time, expiry, and TTL status
 
+<img width="1541" height="1089" alt="Screenshot from 2025-08-21 21-48-58" src="https://github.com/user-attachments/assets/f32c9a70-2188-4a92-bca1-bb79d95439e7" />
+
 # Data/TTL
 - If ttl is provided, the link expires expires_at = now + ttl seconds.
 - If TTL is not provided, the link does not expire (infinite TTL).
